@@ -2,6 +2,7 @@ package com.doudou.cn.shoppingim.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -36,7 +37,7 @@ public class LoginActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(LoginActivity.this);
-        Log.i("解决冲突的地方","有冲突");
+        Log.i("解决冲突的地方", "有冲突");
         //cauhfauisdhfauisdhfasdhui
     }
 
