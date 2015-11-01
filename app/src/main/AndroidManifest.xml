@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+        android:theme="@style/AppTheme"
        >
 
         <!-- 欢迎界面-->
@@ -20,6 +20,8 @@
         </activity>
         <!--登陆界面-->
         <activity android:name="com.doudou.cn.shoppingim.ui.LoginActivity"/>
+        <!-- 主界面-->
+        <activity android:name="com.doudou.cn.shoppingim.ui.MainActivity"/>
     </application>
 
 </manifest>

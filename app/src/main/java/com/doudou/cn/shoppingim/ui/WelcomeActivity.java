@@ -3,6 +3,7 @@ package com.doudou.cn.shoppingim.ui;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
 
@@ -25,10 +26,9 @@ public class WelcomeActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);//去掉标题栏
         setContentView(R.layout.activity_welcome);
         ButterKnife.bind(WelcomeActivity.this);
-
-
     }
 
     /**

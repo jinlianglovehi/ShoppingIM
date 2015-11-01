@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#dd1832"
+        android:padding="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/oneTab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="首页" />
+        <!-- -->
+        <!--android:drawableTop="@drawable/"-->
+
+        <TextView
+            android:id="@+id/secondTab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="首页" />
+
+        <TextView
+            android:id="@+id/thirdTab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:layout_gravity="bottom"
+            android:text="聊天" />
+
+        <TextView
+            android:id="@+id/forthTab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="我的" />
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomBar"
+       />
+</RelativeLayout>

@@ -1,12 +1,13 @@
 package com.doudou.cn.shoppingim.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.doudou.cn.shoppingim.R;
+import com.doudou.cn.shoppingim.tools.ToastUtils;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -16,7 +17,7 @@ import butterknife.OnClick;
  * Created by jinliang on 15/11/1.
  * 登陆界面
  */
-public class LoginActivity extends BaseActivity{
+public class LoginActivity extends BaseActivity {
     @Bind(R.id.tv_mobile_phone)
     TextView tvMobilePhone;
     @Bind(R.id.et_moile_phone)
@@ -42,14 +43,15 @@ public class LoginActivity extends BaseActivity{
      */
     @OnClick(R.id.loginBtn)
     public void loginBtnClick() {
+        // 进入主界面
+        startActivity(new Intent(LoginActivity.this, MainActivity.class));
+        finish();
 
     }
+
     @OnClick(R.id.forget_password)
-    public void forgetPassword(){
-
-        Toast.makeText(LoginActivity.this, "", Toast.LENGTH_SHORT).show();
-
-
+    public void forgetPassword() {
+        ToastUtils.show(LoginActivity.this, "忘记密码模块尚未开发");
     }
 
     @Override
