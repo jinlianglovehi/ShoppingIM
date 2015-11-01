@@ -36,6 +36,7 @@ public class LoginActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(LoginActivity.this);
+        //cauhfauisdhfauisdhfasdhui
     }
 
     /**
@@ -46,7 +47,6 @@ public class LoginActivity extends BaseActivity {
         // 进入主界面
         startActivity(new Intent(LoginActivity.this, MainActivity.class));
         finish();
-
     }
 
     @OnClick(R.id.forget_password)
