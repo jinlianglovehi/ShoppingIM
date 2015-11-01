@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:orientation="horizontal">
+
+        <!-- 手机号码-->
+        <TextView
+            android:id="@+id/tv_mobile_phone"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_phone" />
+
+        <EditText
+            android:id="@+id/et_moile_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="填写你的手机号"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:orientation="horizontal">
+
+        <!-- 手机号码-->
+        <TextView
+            android:id="@+id/tv_mobile_password"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_mobile_password" />
+
+        <EditText
+            android:id="@+id/et_moile_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="填写你的密码"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right"
+        android:text="@string/forget_password"
+        />
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="@dimen/activity_margin"
+        android:text="登陆"/>
+
+
+</LinearLayout>

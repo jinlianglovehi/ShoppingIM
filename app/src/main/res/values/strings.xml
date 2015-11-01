@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShoppingIM</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_return">返回</string>
+    <string name="enter_app">开始app 路程</string>
+    <string name="mobile_phone">手机号</string>
+    <string name="text_mobile_password">密  码</string>
+    <string name="forget_password">忘记密码</string>
+</resources>

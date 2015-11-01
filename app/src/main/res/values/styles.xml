@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <!-- 取消标题-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
