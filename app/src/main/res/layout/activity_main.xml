@@ -34,7 +34,7 @@
             android:drawableTop="@mipmap/ic_launcher"
             android:layout_gravity="bottom"
             android:gravity="center"
-            android:text="首页" />
+            android:text="便民" />
 
         <TextView
             android:id="@+id/thirdTab"
@@ -44,7 +44,7 @@
             android:gravity="center"
             android:drawableTop="@mipmap/ic_launcher"
             android:layout_gravity="bottom"
-            android:text="聊天" />
+            android:text="小金库" />
 
         <TextView
             android:id="@+id/forthTab"

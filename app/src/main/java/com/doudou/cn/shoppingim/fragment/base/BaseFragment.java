@@ -1,7 +1,6 @@
 package com.doudou.cn.shoppingim.fragment.base;
 
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -13,7 +12,6 @@ import android.view.ViewGroup;
  * Created by jinliang on 15/11/1.
  */
 public abstract class BaseFragment extends Fragment {
-    protected Context context;
     protected View view;
 
     @Override
@@ -24,7 +22,7 @@ public abstract class BaseFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-       view  =  initView();
+        view = initView();
 //        return super.onCreateView(inflater, container, savedInstanceState);
         return view;
     }

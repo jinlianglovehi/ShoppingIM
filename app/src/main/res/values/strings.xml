@@ -10,4 +10,7 @@
     <string name="forget_password">忘记密码</string>
     <string name="str_help">帮助</string>
     <string name="app_version">版本</string>
+    <string name="about_us">关于我们</string>
+    <string name="apy_weixin">微信支付</string>
+    <string name="apy_zhifubao">支付宝</string>
 </resources>

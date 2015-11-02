@@ -5,7 +5,7 @@
     android:orientation="vertical">
 
     <!-- 表头的界面的修改-->
-    <include layout="@layout/layout_title_bar"></include>
+    <!--<include layout="@layout/layout_title_bar"></include>-->
 
     <!--个人头像-->
     <ImageView
@@ -14,7 +14,44 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="@mipmap/ic_launcher" />
+    <TextView
 
+        android:id="@+id/user_name"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="小明"
+        />
+
+    <TextView
+        android:id="@+id/apy_weixin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:text="@string/apy_weixin" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#dd3834" />
+    <TextView
+        android:id="@+id/apy_zhifubao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:text="@string/apy_zhifubao" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#dd3834" />
     <!-- 版本功能-->
     <TextView
         android:id="@+id/app_version"
@@ -61,6 +98,6 @@
         android:drawableRight="@mipmap/ic_launcher"
         android:gravity="center_vertical"
         android:paddingLeft="30dp"
-        android:text="@string/str_help" />
+        android:text="@string/about_us" />
 
 </LinearLayout>

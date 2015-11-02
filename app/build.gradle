@@ -27,6 +27,11 @@ dependencies {
     compile 'com.android.support:design:23.1.0'
     //小刀注册
     compile 'com.jakewharton:butterknife:7.0.1'
-
-    compile 'com.squareup.picasso:picasso:2.5.2'// 网络图片处理
+    // 网络图片处理
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    // 数据库的存储
+    compile 'de.greenrobot:greendao:2.0.0'
+    // bug 的管理
+    compile files('libs/Bughd_android_sdk_v1.3.4-2.jar')
+   // compile 'im.fir:sdk:latest.integration'
 }
