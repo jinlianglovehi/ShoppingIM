@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
+        android:visibility="gone"
         android:textSize="@dimen/font_size_12sp"
         android:text="@string/btn_return" />
 
@@ -31,6 +32,7 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:textSize="@dimen/font_size_12sp"
+        android:visibility="gone"
         android:text="右侧按钮" />
 
 

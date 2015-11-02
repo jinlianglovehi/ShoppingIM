@@ -8,4 +8,6 @@
     <string name="mobile_phone">手机号</string>
     <string name="text_mobile_password">密  码</string>
     <string name="forget_password">忘记密码</string>
+    <string name="str_help">帮助</string>
+    <string name="app_version">版本</string>
 </resources>
